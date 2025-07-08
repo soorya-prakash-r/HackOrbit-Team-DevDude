@@ -1,4 +1,4 @@
-# 🚀 Promptify – AI-Powered Prompt Enhancer
+# 🚀 Promptify! – AI-Powered Prompt Enhancer
 
 *Promptify* is a sleek and responsive web application built using *MERN stack* that helps users generate, submit, and manage AI prompts effectively. This repository currently contains the *frontend initialization* and basic structure.
 
