@@ -1,10 +1,10 @@
-/* Base Styles */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 2rem;
-    background-color: #f9f9f9; /* Light background */
-    color: #333; /* Light text */
+    background-color: #f9f9f9; 
+    color: #333;
     animation: fadeIn 1s ease-in-out;
     transition: background-color 0.3s, color 0.3s;
   }
@@ -82,7 +82,7 @@ body {
 }
 
 .theme-toggle:hover {
-  background-color: #357abd; /* only color change */
+  background-color: #357abd; 
 }
 
 
@@ -111,7 +111,6 @@ nav {
   color: black;
 }
 
-/* Responsive Media Queries */
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
