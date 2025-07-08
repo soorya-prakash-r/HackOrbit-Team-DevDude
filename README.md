@@ -29,3 +29,15 @@ This checkpoint introduces the **Start** component, which acts as the **landing 
 - 🎨 Styled using `start.css` with component-based design
 
 ---
+
+## ✅ Checkpoint 3 – Theme and Responsiveness
+
+This checkpoint introduces global styling that controls the overall **theme** of the website and its **responsiveness** across devices.
+
+**File added:**
+- `src/components/appstyle.css`
+
+**Features:**
+- 🌈 Defines consistent design system (colors, spacing, etc.)
+- 📱 Responsive layout adjustments for mobile/tablet
+- 💡 Supports future dark/light theme integration
