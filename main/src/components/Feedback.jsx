@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import './feedback.css'; // Make sure this file is in the same directory
+import './feedback.css'; 
 import Topcomments from './Topcomments';
 
 const backendUrl = import.meta.env.VITE_BACKEND;
