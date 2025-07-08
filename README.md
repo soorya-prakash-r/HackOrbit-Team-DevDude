@@ -57,3 +57,25 @@ This checkpoint introduces the **Promptify.jsx** page, which provides a detailed
 - 💡 Highlights why *Promptify!* is helpful for mastering prompt crafting
 - 🎨 Styled using promptstyle.css for readability and visual appeal
 - 🧭 Acts as a content/info page in the app
+
+--- 
+
+## ✅ Checkpoint 5 – Footer, PromptForm & Developer Info
+
+This checkpoint includes key UI components that enrich user experience and give personality to the application.
+
+*Files added:*
+- src/components/Footer.jsx  
+- src/components/footer.css  
+- src/components/PromptForm.jsx  
+- src/components/promptform.css  
+- src/components/DeveloperInfo.jsx  
+- src/components/devcss.css
+- src/App.jsx
+
+*Features:*
+- **App.jsx**: Central hub for routing and rendering UI
+- 📬 **Footer**: Provides consistent footer across all pages
+- 🧠 **PromptForm**: UI design to accept prompts from users (core feature input)
+- 🧑‍💻 **DeveloperInfo**: Displays credits and background about the developer
+- 🎨 All components are responsive and neatly styled
