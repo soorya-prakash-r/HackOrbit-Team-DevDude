@@ -1,0 +1,401 @@
+
+b {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 25px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body.dark h2 {
+  color: white;
+}
+
+h1 {
+  color: black;
+}
+
+body.dark h1 {
+  color: white;
+}
+
+h3 {
+  color: black;
+}
+
+body.dark h3 {
+  color: white;
+}
+
+form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  color: #333;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark form {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark textarea {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+body.dark select,
+body.dark input[type="text"] {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+body.dark button {
+  background-color: #0056b3;
+}
+
+body.dark h3 {
+  color: #66b2ff;
+}
+
+body.dark #result-container {
+  background-color: #2e2e2e;
+  color: #f1f1f1;
+}
+
+button {
+  background-color: rgb(19, 4, 4);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.enhanced-paragraph {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  color: #222;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .enhanced-paragraph {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+}
+
+.theme-toggle {
+  background-color: #01090f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.theme-toggle:hover {
+  background-color: #495057;
+}
+
+#result-container {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  color: #333;
+  animation: slideIn 0.6s ease-in-out;
+}
+
+.form-container.dark #result-container {
+  background-color: #2e2e2e;
+  color: #f1f1f1;
+}
+
+p {
+  color: black;
+}
+
+p a {
+  color: black !important;
+}
+
+body.dark p {
+  color: white;
+}
+
+body.dark p a {
+  color: white !important;
+}
+
+label {
+  color: black;
+}
+
+body.dark label {
+  color: white;
+}
+
+.user-select-none {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.toneButton {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.toneButton:hover {
+  background-color: #4a90e2;
+  transform: scale(1.05);
+}
+
+.toneButton.selected {
+  background-color: #7184f5;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 8px #c7c6f1aa;
+}
+ 
+@media (max-width: 320px) {
+  b {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h1, h3 {
+    font-size: 16px;
+  }
+
+  form {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  button {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .enhanced-paragraph {
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .theme-toggle {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .toneButton {
+    font-size: 13px;
+    padding: 0.4rem 0.8rem;
+    margin-right: 6px;
+  }
+}
+ 
+@media (min-width: 321px) and (max-width: 375px) {
+  b {
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h1, h3 {
+    font-size: 17px;
+  }
+
+  form {
+    padding: 1.25rem;
+    max-width: 100%;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .enhanced-paragraph {
+    font-size: 1rem;
+    padding: 1.2rem;
+    margin: 1.2rem;
+  }
+
+  .theme-toggle {
+    padding: 0.45rem 0.9rem;
+    font-size: 1rem;
+  }
+
+  .toneButton {
+    font-size: 14px;
+    padding: 0.45rem 0.9rem;
+    margin-right: 8px;
+  }
+}
+ 
+@media (min-width: 376px) and (max-width: 425px) {
+  b {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h1, h3 {
+    font-size: 18px;
+  }
+
+  form {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 0.65rem 1.3rem;
+  }
+
+  .enhanced-paragraph {
+    font-size: 1.05rem;
+    padding: 1.3rem;
+    margin: 1.5rem auto;
+  }
+
+  .theme-toggle {
+    padding: 0.5rem 1rem;
+    font-size: 1.05rem;
+  }
+
+  .toneButton {
+    font-size: 14.5px;
+    padding: 0.5rem 1rem;
+    margin-right: 9px;
+  }
+}
+ 
+@media (min-width: 768px) {
+  b {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h1, h3 {
+    font-size: 20px;
+  }
+
+  form {
+    padding: 2rem;
+    max-width: 600px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .enhanced-paragraph {
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    margin: 2rem auto;
+  }
+
+  .theme-toggle {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .toneButton {
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+    margin-right: 10px;
+  }
+}
+ 
+.textinput-area {
+  width: 100%;
+  max-width: 600px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+ 
+@media (max-width: 320px) {
+  .textinput-area {
+    max-width: 280px;
+    font-size: 0.85rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
+ 
+@media (max-width: 375px) {
+  .textinput-area {
+    max-width: 320px;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.85rem;
+  }
+}
+ 
+@media (max-width: 425px) {
+  .textinput-area {
+    max-width: 380px;
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+  }
+} 
+
+@media (max-width: 768px) {
+  .textinput-area {
+    max-width: 100%;
+    font-size: 1.1rem;
+    padding: 1rem 1.25rem;
+  }
+}
