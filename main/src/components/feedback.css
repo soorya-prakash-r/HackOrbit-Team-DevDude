@@ -1,0 +1,165 @@
+.feedback-container {
+  text-align: center;
+  margin-top: 7%;
+  padding: 1rem;
+}
+
+.feedback-container h2 {
+  font-size: 1.5rem;
+}
+
+.feedback-container h2 span {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+}
+
+.feedback-container input,
+.feedback-container textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 60%;
+  max-width: 500px;
+}
+
+.feedback-container textarea {
+  resize: none;
+}
+
+.feedback-container button {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-container button:disabled {
+  background-color: #1c8cee;
+  cursor: not-allowed;
+}
+
+
+
+/* 768px and below */
+@media (max-width: 768px) {
+  .feedback-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .feedback-container input,
+  .feedback-container textarea {
+    width: 80%;
+    font-size: 0.95rem;
+  }
+}
+
+/* 425px and below */
+@media (max-width: 425px) {
+  .feedback-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .feedback-container input,
+  .feedback-container textarea {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .feedback-container button {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* 375px and below */
+@media (max-width: 375px) {
+  .feedback-container h2 {
+    font-size: 1.1rem;
+  }
+
+  .feedback-container input,
+  .feedback-container textarea {
+    width: 95%;
+    font-size: 0.85rem;
+  }
+
+  .feedback-container button {
+    font-size: 0.9rem;
+  }
+}
+
+/* 320px and below */
+@media (max-width: 320px) {
+  .feedback-container h2 {
+    font-size: 1rem;
+  }
+
+  .feedback-container input,
+  .feedback-container textarea {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .feedback-container button {
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+.feedback-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center the form items horizontally */
+  gap: 1rem;
+}
+
+.feedback-container input[type="text"],
+.feedback-container textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Optional: Override textarea sizing */
+.feedback-container textarea {
+  resize: vertical;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .feedback-container input[type="text"],
+  .feedback-container textarea {
+    max-width: 90%;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .feedback-container input[type="text"],
+  .feedback-container textarea {
+    max-width: 95%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .feedback-container input[type="text"],
+  .feedback-container textarea {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .feedback-container input[type="text"],
+  .feedback-container textarea {
+    font-size: 0.8rem;
+  }
+}
