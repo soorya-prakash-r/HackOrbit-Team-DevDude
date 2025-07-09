@@ -1,60 +1,94 @@
-# 🚀 Promptify! – AI-Powered Prompt Engineering Web Application
+# 🚀 Promptify! – AI-Powered Prompt Enhancer
 
-**Promptify!** is a full-stack AI-powered web application built to help users craft, manage, and improve AI prompts efficiently. Designed with modern technologies and a user-first approach, Promptify leverages cutting-edge AI to provide meaningful prompt suggestions and enhancements.
+**Promptify!** is a full-stack, AI-powered web application built using the **MERN stack** (MongoDB, Express.js, React, Node.js), designed to help users generate, manage, and enhance AI prompts intelligently. The app integrates **Gemini AI APIs** and allows users to input, rate, and understand prompt engineering concepts interactively.
 
----
+🌐 Live Website: [https://letspromptify.xyz](https://letspromptify.xyz)   
 
-## 🌐 Live Site
-
-🎯 [https://letspromptifynow.web.app](https://letspromptifynow.web.app)
+📌 Demo Video: (https://www.youtube.com/watch?v=bz9NC0czd2o)
 
 ---
 
-## Demo Video
+## 🧠 About the Project
 
-🎯 (https://www.youtube.com/watch?v=bz9NC0czd2o)
+Prompt Engineering is a crucial part of getting the most out of generative AI.  
+**Promptify!** was built to empower users with the right tools and knowledge to craft better prompts and extract smarter responses from AI systems.
+
+### 🎯 Goals of Promptify!
+- 📘 **Educate users** on the importance of prompt crafting
+- 🤖 **Enable a guided, AI-enhanced platform** using Gemini APIs
+- 🗳️ **Collect real-time feedback** through prompt ratings for continuous improvement
+- 🌐 **Simplify AI interaction** with a clean, no-login user experience
+
+By making prompt engineering accessible, Promptify! helps users unlock the true potential of GenAI.
 
 ---
 
-## 🛠️ Tech Stack
+## 🔧 Tech Stack
 
-- **Frontend**: React, Vite, CSS Modules
+- **Frontend**: React (Vite), HTML, CSS
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB Atlas (Cloud-based NoSQL)
-- **AI Integration**: Gemini AI API
-- **Version Control**: Git & GitHub
+- **Database**: MongoDB Atlas
+- **AI Integration**: Gemini API
 - **Deployment**:
-  - 🔹 Frontend → Firebase Hosting
-  - 🔹 Backend → Render
-  - 🔹 Backend Trigger → cron-job
+  - Frontend: Firebase Hosting
+  - Backend: Render
+- **Version Control**: Git + GitHub
+- **gen.xyz**: Custom domain
 
 ---
 
-## ✨ Features
+## 📌 Features
 
-- 🤖 **Gemini AI Integration**  
-  Integrated Gemini AI APIs to enable real-time intelligent prompt generation and improvement.
-
-- 🧠 **Prompt Engineering Assistance**  
-  Provides context-aware suggestions, explanations, and optimization tips for effective prompt crafting.
-
-- 📬 **Prompt Submission UI**  
-  A clean and responsive form where users can input and submit prompts for enhancement.
-
-- 📊 **Feedback & Rating System**  
-  Users can rate the helpfulness of generated prompts to support continuous model tuning and UX feedback.
-
-- 🌐 **Fully Responsive Design**  
-  Seamlessly accessible across desktop, tablet, and mobile devices.
-
-- 🗃️ **MongoDB Atlas Integration**  
-  Stores prompt data and feedback securely using a scalable cloud database.
+- ✨ Beautiful landing page with responsive design
+- 📘 "What is Prompt Engineering?" educational section
+- 🧠 Gemini-powered prompt enhancement
+- 🗳️ Prompt submission form with real-time feedback
+- 🌟 Top-rated comments viewable by all users
+- 📄 Developer information section
+- 🌐 Deployed with HTTPS and custom domain (`letspromptify.xyz`)
 
 ---
 
-## 👨‍💻 Team DevDude
+## 🔐 Backend Overview
 
-- **Soorya Prakash R** – Core Idea, Frontend, Backend, AI Integration and Deployment
+Located in: `/backend/`
+
+- **server.js**: Express app entry point
+- **.env**: Includes API keys, MongoDB URI, Passwords (not committed)
+- **/routes/**: API routes for enhancing prompts and managing comments
+- **Connected to**: MongoDB Atlas + Gemini API
 
 ---
 
+## 🔁 Branch Structure
+
+| Branch   | Purpose              | Directory     |
+|----------|----------------------|---------------|
+| `main`   | Frontend (React)     | `/main/`      |
+| `backend`| Backend (Node.js + Express) | `/backend/`   |
+
+> 📌 Note: The frontend is deployed via **Firebase**, and the backend is hosted on **Render** using the respective directories from each branch.
+
+---
+
+## ⚙️ Installation Guide
+
+### 🔵 Frontend and Backend respectively:
+
+For dependencies:
+```bash  
+npm install
+```
+To start the server:
+```bash
+npm run dev
+npm start
+```
+
+---
+
+## 🚀 Developer
+
+### Soorya Prakash R
+
+🚀 Solo Developer – TEAM DevDude
