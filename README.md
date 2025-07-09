@@ -52,4 +52,9 @@
 
 ---
 
+## 👨‍💻 Team DevDude
+
+- **Soorya Prakash R** – Core Idea, Frontend, Backend, AI Integration and Deployment
+
+---
 
