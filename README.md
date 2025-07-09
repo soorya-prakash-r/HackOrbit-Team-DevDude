@@ -4,13 +4,29 @@
 
 ---
 
+## 🌐 Live Site
+
+🎯 [https://letspromptifynow.web.app](https://letspromptifynow.web.app)
+
+---
+
+## Demo Video
+
+🎯 (https://www.youtube.com/watch?v=bz9NC0czd2o)
+
+---
+
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, CSS Modules
+- **Frontend**: React, Vite, CSS Modules
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB Atlas (Cloud-based NoSQL)
 - **AI Integration**: Gemini AI API
 - **Version Control**: Git & GitHub
+- **Deployment**:
+  - 🔹 Frontend → Firebase Hosting
+  - 🔹 Backend → Render
+  - 🔹 Backend Trigger → cron-job
 
 ---
 
@@ -34,6 +50,6 @@
 - 🗃️ **MongoDB Atlas Integration**  
   Stores prompt data and feedback securely using a scalable cloud database.
 
---- 
+---
 
 
