@@ -1,6 +1,6 @@
-# 🚀 Promptify – AI-Powered Prompt Engineering Web Application
+# 🚀 Promptify! – AI-Powered Prompt Engineering Web Application
 
-**Promptify** is a full-stack AI-powered web application built to help users craft, manage, and improve AI prompts efficiently. Designed with modern technologies and a user-first approach, Promptify leverages cutting-edge AI to provide meaningful prompt suggestions and enhancements.
+**Promptify!** is a full-stack AI-powered web application built to help users craft, manage, and improve AI prompts efficiently. Designed with modern technologies and a user-first approach, Promptify leverages cutting-edge AI to provide meaningful prompt suggestions and enhancements.
 
 ---
 
