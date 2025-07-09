@@ -8,14 +8,13 @@ dotenv.config()
 const app = express() 
 app.use(express.json()) 
 
-// Set up CORS with allowed origin
+
 app.use(cors({
   origin: 'http://localhost:5173',  
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'x-api-key'],
 }))
 
-// API key middleware - skip preflight OPTIONS requests
 app.use((req, res, next) => {
   if (req.method === 'OPTIONS') {
     return next()
