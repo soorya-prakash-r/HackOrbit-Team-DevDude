@@ -60,13 +60,29 @@ Located in: `/backend/`
 
 ---
 
+## 🔁 Branch Structure
+
+| Branch   | Purpose              | Directory     |
+|----------|----------------------|---------------|
+| `main`   | Frontend (React)     | `/main/`      |
+| `backend`| Backend (Node.js + Express) | `/backend/`   |
+
+> 📌 Note: The frontend is deployed via **Firebase**, and the backend is hosted on **Render** using the respective directories from each branch.
+
+---
+
 ## ⚙️ Installation Guide
 
-### 🔵 Frontend
+### 🔵 Frontend and Backend respectively:
 
+For dependencies:
 ```bash  
 npm install
+```
+To start the server:
+```bash
 npm run dev
+npm start
 ```
 
 ---
