@@ -1,81 +1,39 @@
-# 🚀 Promptify! – AI-Powered Prompt Enhancer
+# 🚀 Promptify – AI-Powered Prompt Engineering Web Application
 
-*Promptify* is a sleek and responsive web application built using *MERN stack* that helps users generate, submit, and manage AI prompts effectively. This repository currently contains the *frontend initialization* and basic structure.
+**Promptify** is a full-stack AI-powered web application built to help users craft, manage, and improve AI prompts efficiently. Designed with modern technologies and a user-first approach, Promptify leverages cutting-edge AI to provide meaningful prompt suggestions and enhancements.
 
 ---
 
-## ✅ Checkpoint 1 – Initial React Setup
+## 🛠️ Tech Stack
 
-This checkpoint includes:
-- 🎯 Project initialized using *Vite*
-- 🧱 Base React files (main.jsx)
-- 🎨 Global and component-specific styling 
-- 🛠️ Configuration files: vite.config.js, package.json
+- **Frontend**: React, CSS Modules
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB Atlas (Cloud-based NoSQL)
+- **AI Integration**: Gemini AI API
+- **Version Control**: Git & GitHub
+
+---
+
+## ✨ Features
+
+- 🤖 **Gemini AI Integration**  
+  Integrated Gemini AI APIs to enable real-time intelligent prompt generation and improvement.
+
+- 🧠 **Prompt Engineering Assistance**  
+  Provides context-aware suggestions, explanations, and optimization tips for effective prompt crafting.
+
+- 📬 **Prompt Submission UI**  
+  A clean and responsive form where users can input and submit prompts for enhancement.
+
+- 📊 **Feedback & Rating System**  
+  Users can rate the helpfulness of generated prompts to support continuous model tuning and UX feedback.
+
+- 🌐 **Fully Responsive Design**  
+  Seamlessly accessible across desktop, tablet, and mobile devices.
+
+- 🗃️ **MongoDB Atlas Integration**  
+  Stores prompt data and feedback securely using a scalable cloud database.
 
 --- 
 
-## ✅ Checkpoint 2 – Landing Page: Start Component
 
-This checkpoint introduces the *Start* component, which acts as the *landing page* of the application.
-
-*Files added:*
-- src/App.jsx
-- src/components/Start.jsx
-- src/components/start.css
-
-*Features:*
-- 🖥️ Clean, user-friendly landing interface
-- 📱 Fully responsive design
-- 🎨 Styled using start.css with component-based design
-
----
-
-## ✅ Checkpoint 3 – Theme and Responsiveness
-
-This checkpoint introduces global styling that controls the overall *theme* of the website and its *responsiveness* across devices.
-
-*File added:*
-- src/components/appstyle.css
-
-*Features:*
-- 🌈 Defines consistent design system (colors, spacing, etc.)
-- 📱 Responsive layout adjustments for mobile/tablet
-- 💡 Supports future dark/light theme integration
-
----
-
-## ✅ Checkpoint 4 – Promptify! Info Page
-
-This checkpoint introduces the **Promptify.jsx** page, which provides a detailed explanation about **Prompt Engineering**, its significance, and why users should choose Promptify!
-
-*Files added:*
-- src/components/Promptify.jsx
-- src/components/promptstyle.css
-
-*Features:*
-- 📚 Educates users on what Prompt Engineering is
-- 💡 Highlights why *Promptify!* is helpful for mastering prompt crafting
-- 🎨 Styled using promptstyle.css for readability and visual appeal
-- 🧭 Acts as a content/info page in the app
-
---- 
-
-## ✅ Checkpoint 5 – Footer, PromptForm & Developer Info
-
-This checkpoint includes key UI components that enrich user experience and give personality to the application.
-
-*Files added:*
-- src/components/Footer.jsx  
-- src/components/footer.css  
-- src/components/PromptForm.jsx  
-- src/components/promptform.css  
-- src/components/DeveloperInfo.jsx  
-- src/components/devcss.css
-- src/App.jsx
-
-*Features:*
-- **App.jsx**: Central hub for routing and rendering UI
-- 📬 **Footer**: Provides consistent footer across all pages
-- 🧠 **PromptForm**: UI design to accept prompts from users (core feature input)
-- 🧑‍💻 **DeveloperInfo**: Displays credits and background about the developer
-- 🎨 All components are responsive and neatly styled
