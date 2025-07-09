@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "promptify-fdaca"
+  },
+  "targets": {
+    "promptify-fdaca": {
+      "hosting": {
+        "promptify": [
+          "letspromptifynow"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
