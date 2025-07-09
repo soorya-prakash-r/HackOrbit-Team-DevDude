@@ -8,6 +8,21 @@
 
 ---
 
+## 🧠 About the Project
+
+Prompt Engineering is a crucial part of getting the most out of generative AI.  
+**Promptify!** was built to empower users with the right tools and knowledge to craft better prompts and extract smarter responses from AI systems.
+
+### 🎯 Goals of Promptify!
+- 📘 **Educate users** on the importance of prompt crafting
+- 🤖 **Enable a guided, AI-enhanced platform** using Gemini APIs
+- 🗳️ **Collect real-time feedback** through prompt ratings for continuous improvement
+- 🌐 **Simplify AI interaction** with a clean, no-login user experience
+
+By making prompt engineering accessible, Promptify! helps users unlock the true potential of GenAI.
+
+---
+
 ## 🔧 Tech Stack
 
 - **Frontend**: React (Vite), HTML, CSS
@@ -58,4 +73,6 @@ npm run dev
 
 ## 🚀 Developer
 
-### Soorya Prakash R - Solo Developer - TEAM DevDude
+### Soorya Prakash R
+
+🚀 Solo Developer – TEAM DevDude
