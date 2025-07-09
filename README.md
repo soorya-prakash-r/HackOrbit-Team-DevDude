@@ -1,39 +1,61 @@
-# 🚀 Promptify! – AI-Powered Prompt Engineering Web Application
+# 🚀 Promptify! – AI-Powered Prompt Enhancer
 
-**Promptify!** is a full-stack AI-powered web application built to help users craft, manage, and improve AI prompts efficiently. Designed with modern technologies and a user-first approach, Promptify leverages cutting-edge AI to provide meaningful prompt suggestions and enhancements.
+**Promptify!** is a full-stack, AI-powered web application built using the **MERN stack** (MongoDB, Express.js, React, Node.js), designed to help users generate, manage, and enhance AI prompts intelligently. The app integrates **Gemini AI APIs** and allows users to input, rate, and understand prompt engineering concepts interactively.
+
+🌐 Live Website: [https://letspromptify.xyz](https://letspromptify.xyz)   
+
+📌 Demo Video: (https://www.youtube.com/watch?v=bz9NC0czd2o)
 
 ---
 
-## 🛠️ Tech Stack
+## 🔧 Tech Stack
 
-- **Frontend**: React, CSS Modules
+- **Frontend**: React (Vite), HTML, CSS
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB Atlas (Cloud-based NoSQL)
-- **AI Integration**: Gemini AI API
-- **Version Control**: Git & GitHub
+- **Database**: MongoDB Atlas
+- **AI Integration**: Gemini API
+- **Deployment**:
+  - Frontend: Firebase Hosting
+  - Backend: Render
+- **Version Control**: Git + GitHub
+- **gen.xyz**: Custom domain
 
 ---
 
-## ✨ Features
+## 📌 Features
 
-- 🤖 **Gemini AI Integration**  
-  Integrated Gemini AI APIs to enable real-time intelligent prompt generation and improvement.
+- ✨ Beautiful landing page with responsive design
+- 📘 "What is Prompt Engineering?" educational section
+- 🧠 Gemini-powered prompt enhancement
+- 🗳️ Prompt submission form with real-time feedback
+- 🌟 Top-rated comments viewable by all users
+- 📄 Developer information section
+- 🌐 Deployed with HTTPS and custom domain (`letspromptify.xyz`)
 
-- 🧠 **Prompt Engineering Assistance**  
-  Provides context-aware suggestions, explanations, and optimization tips for effective prompt crafting.
+---
 
-- 📬 **Prompt Submission UI**  
-  A clean and responsive form where users can input and submit prompts for enhancement.
+## 🔐 Backend Overview
 
-- 📊 **Feedback & Rating System**  
-  Users can rate the helpfulness of generated prompts to support continuous model tuning and UX feedback.
+Located in: `/backend/`
 
-- 🌐 **Fully Responsive Design**  
-  Seamlessly accessible across desktop, tablet, and mobile devices.
+- **server.js**: Express app entry point
+- **.env**: Includes API keys, MongoDB URI, Passwords (not committed)
+- **/routes/**: API routes for enhancing prompts and managing comments
+- **Connected to**: MongoDB Atlas + Gemini API
 
-- 🗃️ **MongoDB Atlas Integration**  
-  Stores prompt data and feedback securely using a scalable cloud database.
+---
 
---- 
+## ⚙️ Installation Guide
 
+### 🔵 Frontend
 
+```bash  
+npm install
+npm run dev
+```
+
+---
+
+## 🚀 Developer
+
+### Soorya Prakash R - Solo Developer - TEAM DevDude
