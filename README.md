@@ -1,6 +1,6 @@
 # 🚀 Promptify! – AI-Powered Prompt Enhancer
 
-**Promptify!** is a full-stack, AI-powered web application built using the **MERN stack** (MongoDB, Express.js, React, Node.js), designed to help users generate, manage, and enhance AI prompts intelligently. The app integrates **Gemini AI APIs** and allows users to input, rate, and understand prompt engineering concepts interactively.
+**Promptify!** is a full-stack, AI-powered web application built using the **MERN stack** (MongoDB, Express.js, React, Node.js), designed to help users enhance their vague AI prompts intelligently. The app integrates **Gemini AI APIs** and allows users to input, rate, and understand prompt engineering concepts interactively.
 
 🌐 Live Website: [https://wepromptify.in](https://wepromptify.in)   
 
