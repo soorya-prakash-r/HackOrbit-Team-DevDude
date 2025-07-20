@@ -89,6 +89,7 @@ npm start
 
 ## 🚀 Developer
 
-### Soorya Prakash R
+### 👨‍💻 Indie Developer - Soorya Prakash R
 
-🚀 Solo Developer – TEAM DevDude
+---
+ 
